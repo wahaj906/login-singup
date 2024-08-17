@@ -1,8 +1,4 @@
-/**
- * @file authState.js
- * @author Sanjay Sunil
- * @license MIT
- */
+
 
 firebase.auth().onAuthStateChanged(function (user) {
   if (user) {
